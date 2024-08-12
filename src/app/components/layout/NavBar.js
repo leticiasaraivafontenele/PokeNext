@@ -14,7 +14,7 @@ export default function NavBar(){
                     <Link href="/" legacyBehavior><a>Home</a></Link>
                 </li>
                 <li>
-                    <Link href="/About/" legacyBehavior><a>Sobre</a></Link>
+                    <Link href="/Pages/about/" legacyBehavior><a>Sobre</a></Link>
                 </li>
             </ul>
         </nav>
