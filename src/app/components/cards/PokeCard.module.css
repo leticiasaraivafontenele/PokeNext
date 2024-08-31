@@ -8,9 +8,15 @@
     width: 22%;
     border-radius: 1em;
     border: 2px solid #e33d33;
-    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
-    background-color: #333;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(145deg, #444, #222);
     color: #fff;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.6); 
 }
 
 .card .id{
@@ -22,25 +28,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: inset 6px 6px 10px #f9d423; 
 }
 
 .card .title{
     text-transform: capitalize;
     margin-bottom: 1em;
     font-size: 1.4em;
+    color: #f9d423;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.336); 
 }
 
 .card .btn{
     text-decoration: none;
     background-color: #fff;
     color: #222;
-    padding: .7em 1.2em;
+    padding: 0.7em 1.2em;
     border-radius: 5px;
     font-weight: bold;
-    transition: .4s;
+    transition: background-color 0.4s, color 0.4s;
 }
 .card .btn:hover{
-    background-color: #e33d33;
+    background: linear-gradient(145deg, #e33d33, #f9d423); 
     color: #fff;
 }
 
