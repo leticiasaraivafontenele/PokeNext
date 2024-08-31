@@ -4,8 +4,10 @@
     align-items: center;
     padding: 1em 1.2em;
     margin-bottom: 2em;
-    background-color: #333;
-    color: fff;
+    background: linear-gradient(45deg, #ff4e50, #f9d423); 
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 8px; 
 }
 .logo{
     display: flex;
@@ -13,7 +15,8 @@
     align-items: center;
 }
 .logo h1{
-    margin-left:  .5em;
+    margin-left: 0.5em;
+    font-family: serif; 
 }
 
 .link_itens{
@@ -28,9 +31,12 @@
     color: #fff;
     text-decoration: none;
     padding: 5px;
-    transition: .4s;
-    border-bottom:  2px solid transparent;
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+    font-weight: bold; 
+    font-family: serif;
 }
 .link_itens a:hover{
     border-color: #fff;
+    color: #f9d423; 
 }
